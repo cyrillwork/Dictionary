@@ -18,7 +18,7 @@ public class Dictionary
      */
     public static void main(String[] args)
     {
-        JFrame frame = new JFrame("Dict");
+        JFrame frame = new JFrame("Dictionary");
         frame.getContentPane().add(BorderLayout.CENTER, new DictPanel());
         frame.setSize(250, 150);
         //frame.setResizable(false);
